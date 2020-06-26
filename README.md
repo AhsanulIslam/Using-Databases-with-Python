@@ -1,6 +1,6 @@
 "# Using-Databases-with-Python" 
 
-Counting Organizations  > Name as > assignment2.py 
+#########Counting Organizations  > Name as > assignment2.py 
 
 This application will read the mailbox data (mbox.txt) and count the 
 number of email messages per organization (i.e. domain name of the email 
@@ -30,7 +30,7 @@ of not losing the results of operations that have not yet been committed.
 
 
 
-Musical Track Database  >>>>> name as >>> assignment3.py
+##############Musical Track Database  >>>>> name as >>> assignment3.py
 
 This application will read an iTunes export file in XML and produce a properly normalized database with this structure:
 
@@ -80,7 +80,7 @@ For Those About To Rock (We Salute You)	AC/DC	Who Made Who	Rock
 
 
 
-Instructions >> File name as >> assignment4.py
+############Instructions >> File name as >> assignment4.py
 This application will read roster data in JSON format, parse the file, and then produce an SQLite database that contains a User, Course, and Member table and populate the tables from the data file.
 
 You can base your solution on this code: http://www.py4e.com/code3/roster/roster.py - this code is incomplete as you need to modify the program to store the role column in the Member table to complete the assignment.
@@ -95,4 +95,13 @@ SELECT hex(User.name || Course.title || Member.role ) AS X FROM
     ORDER BY X
 Find the first row in the resulting record set and enter the long string that looks like 53656C696E613333.
 
+
+
+
+
+
+########## Retrieving GEOData >> Folder >> geodata
+Download the code from http://www.py4e.com/code3/geodata.zip - then unzip the file and edit where.data to add an address nearby where you live - don't reveal where you live. Then run the geoload.py to lookup all of the entries in where.data (including the new one) and produce the geodata.sqlite. Then run geodump.py to read the database and produce where.js. You can run the programs and then scroll back to take your screen shots when the program finishes. Then open where.html to visualize the map. Take screen shots as described below. Make sure that your added location shows in all three of your screen shots.
+
+This is a relatively simple assignment. Don't take off points for little mistakes. If they seem to have done the assignment give them full credit. Feel free to make suggestions if there are small mistakes. Please keep your comments positive and useful. If you do not take grading seriously, the instructors may delete your response and you will lose points.
 
